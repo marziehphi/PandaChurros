@@ -1,0 +1,7 @@
+streamlit>=1.31
+pandas>=2.2
+plotly>=5.22
+openpyxl>=3.1.2
+pytz>=2024.1
+# Only if you need to read legacy .xls files:
+# xlrd==1.2.0
