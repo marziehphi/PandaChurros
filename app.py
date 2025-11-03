@@ -13,7 +13,7 @@ import streamlit as st
 st.set_page_config(page_title="Sales Explorer PandaChurros AB", layout="wide")
 
 # Show a local logo automatically (place 'logo.png' next to this file)
-logo_path = Path("transparent-base-logo-1024x1024.png")
+logo_path = Path("logo.png")
 if logo_path.exists():
     st.image(str(logo_path), width=140)
 st.title("Sales Explorer PandaChurros AB")
